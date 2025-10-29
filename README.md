@@ -1,11 +1,14 @@
-# HHO-Based-Fused-Model-for-Locust-Detection
-🔍 A deep learning–based object detection model for locust identification using a fused YOLOv5 + YOLOv8 ensemble. The proposed method employs Harris Hawks Optimization (HHO)–based fusion, leveraging the strengths of YOLOv5 and YOLOv8 to build a fast and reliable locust detector for real-world agricultural monitoring.
+# 🚀 HHO-Based Fusion of YOLOv5 & YOLOv8 for Enhanced Locust Detection
+🔍 A deep learning–based object detection model for locust identification using an HHO-optimized fusion of YOLOv5 and YOLOv8.
 
 ## 📌 Project Overview
-This is the official repository for my research paper.
+This is the official repository for my research work:
 
-This study proposes an optimized fusion approach for locust detection in agricultural images using a combination of YOLOv5 and YOLOv8 models. The fusion is performed through Harris Hawks Optimization (HHO), effectively leveraging the strengths of both architectures to achieve higher accuracy and robustness. The dataset has been carefully curated, annotated, and augmented for this specific task.
-This repository presents the implementation and performance evaluation of the proposed HHO-based fused YOLOv5–YOLOv8 model for real-world locust identification in smart farming applications. The study was conducted on:
+"HHO-Based Fusion of YOLOv5 and YOLOv8 for Enhanced Locust Detection" (DOI: 10.5281/zenodo.14996737)
+
+This study proposes a Harris Hawks Optimization (HHO)–based fusion framework that combines the strengths of YOLOv5 and YOLOv8 for accurate and efficient locust identification.
+The dataset has been curated, annotated, and augmented specifically for this task.
+This repository presents the implementation, fusion process, and performance evaluation of the proposed HHO-based fused YOLOv5–YOLOv8 model for real-world locust identification in smart farming applications. The study was conducted on:
 
 1️⃣ A curated dataset specifically prepared for locust detection.
 
@@ -14,23 +17,26 @@ This repository presents the implementation and performance evaluation of the pr
 3️⃣ Labels are in YOLO format.
 
 ## 🔥 Key Findings:
-◆ YOLOv8 outperformed YOLOv5 in both scenarios, achieving higher accuracy and better generalization.
-
-◆ Dataset augmentation significantly improved model performance and provide higher F1 Score and better detection accuracy.
+◆ The HHO-based fused model achieved a higher Mean IoU and better detection accuracy compared to individual YOLO models.
+◆ The fusion reduced false positives and improved overall model robustness under varied lighting and environmental conditions.
+◆ The fusion strategy effectively leveraged YOLOv5’s localization precision and YOLOv8’s generalization capability.
 
 ## ✅ Features
-★ YOLOv5 & YOLOv8 implementations
-
-★ Custom dataset (without augmentation and with augmentation) for locust detection
-
+★ YOLOv5 + YOLOv8 fusion using Harris Hawks Optimization (HHO)
+★ Curated and augmented dataset for locust detection
 ★ Training and inference scripts included
-
+★ Fusion and evaluation scripts for HHO-based ensemble
 ★ Supports Google Colab for easy execution
 
 ## 📁 Dataset & Model Files
-🔹 Curated & Augmented Dataset are available on Zenodo. Dataset DOI: 10.5281/zenodo.14964987
+🔹 Code includes:
 
-🔹 Code Implementations: Includes training and inference scripts for both YOLOv5 and YOLOv8.
+YOLOv5 and YOLOv8 base training scripts
+
+HHO-based fusion implementation (fusion_hho.ipynb)
+
+Inference and visualization utilities
+
 
 🔹 Dataset is structured like this
 ```
@@ -54,3 +60,19 @@ locust_detection
 │ ├── img_102.txt
 │ └── ...
 ```
+## 🎯 Augmentation Techniques Applied
+
+The following augmentation techniques were applied to improve model diversity and robustness:
+
+🔹 Horizontal & Vertical Flip
+🔹 Brightness and Contrast Adjustment
+🔹 Rotation and Scaling
+🔹 Gaussian Blur
+🔹 HSV Modification
+🔹 Color Shifting
+🔹 Cropping
+
+💡 Augmentation script: augmentation.ipynb
+📸 Sample Output
+Applied Augmentation Example
+Fused Model Detection Output
