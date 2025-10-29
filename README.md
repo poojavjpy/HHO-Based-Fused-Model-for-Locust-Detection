@@ -1,11 +1,11 @@
 # HHO-Based-Fused-Model-for-Locust-Detection
-🔍 A deep learning–based object detection model for locust identification using a fused YOLOv5 + YOLOv8 ensemble. Proposed method Fuse the strengths of YOLOv5 and YOLOv8 to build a fast, reliable locust detector for real-world agricultural monitoring.
+🔍 A deep learning–based object detection model for locust identification using a fused YOLOv5 + YOLOv8 ensemble. The proposed method employs Harris Hawks Optimization (HHO)–based fusion, leveraging the strengths of YOLOv5 and YOLOv8 to build a fast and reliable locust detector for real-world agricultural monitoring.
 
 📌 Project Overview
 This is the official repository for my research paper.
 
-"Enhanced Locust Detection in Smart Farming Using YOLOv5 and YOLOv8 with Data Augmentation: A Comparative Performance Evaluation" with DOI 10.48084/etasr.11843 . This study aims to detect locusts in images using YOLOv5 and YOLOv8 models. The dataset has been curated, annotated and augmentated specifically for this task.
-This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locust detection. The study was conducted on:
+This study proposes an optimized fusion approach for locust detection in agricultural images using a combination of YOLOv5 and YOLOv8 models. The fusion is performed through Harris Hawks Optimization (HHO), effectively leveraging the strengths of both architectures to achieve higher accuracy and robustness. The dataset has been carefully curated, annotated, and augmented for this specific task.
+This repository presents the implementation and performance evaluation of the proposed HHO-based fused YOLOv5–YOLOv8 model for real-world locust identification in smart farming applications. The study was conducted on:
 
 1️⃣ A curated dataset specifically prepared for locust detection.
 
