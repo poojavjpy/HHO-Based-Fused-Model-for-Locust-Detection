@@ -18,14 +18,20 @@ This repository presents the implementation, fusion process, and performance eva
 
 ## 🔥 Key Findings:
 ◆ The HHO-based fused model achieved a higher Mean IoU and better detection accuracy compared to individual YOLO models.
+
 ◆ The fusion reduced false positives and improved overall model robustness under varied lighting and environmental conditions.
+
 ◆ The fusion strategy effectively leveraged YOLOv5’s localization precision and YOLOv8’s generalization capability.
 
 ## ✅ Features
 ★ YOLOv5 + YOLOv8 fusion using Harris Hawks Optimization (HHO)
+
 ★ Curated and augmented dataset for locust detection
+
 ★ Training and inference scripts included
+
 ★ Fusion and evaluation scripts for HHO-based ensemble
+
 ★ Supports Google Colab for easy execution
 
 ## 📁 Dataset & Model Files
