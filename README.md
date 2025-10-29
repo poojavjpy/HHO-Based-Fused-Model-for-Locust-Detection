@@ -33,6 +33,7 @@ This repository presents the implementation and performance evaluation of the pr
 🔹 Code Implementations: Includes training and inference scripts for both YOLOv5 and YOLOv8.
 
 🔹 Dataset is structured like this
+```
 locust_detection
 ├── images
 │ ├── train
@@ -52,3 +53,4 @@ locust_detection
 │ ├── img_101.txt
 │ ├── img_102.txt
 │ └── ...
+```
