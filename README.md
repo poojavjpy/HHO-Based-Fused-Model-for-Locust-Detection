@@ -87,9 +87,9 @@ The following augmentation techniques were applied to improve model diversity an
 💡 Augmentation script: augmentation.ipynb
 
 ### **Applied Augmentation Techniques**
-![Augmentation](results/augmentation.jpg)
+![Augmentation](Results/augmentation.jpg)
 
 📸 Sample Output
 
-![Fused, Yolov8, Yolov5 Output](results/detection.jpg)
+![Fused, Yolov8, Yolov5 Output](Results/detection.jpg)
 
