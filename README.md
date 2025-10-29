@@ -71,14 +71,23 @@ locust_detection
 The following augmentation techniques were applied to improve model diversity and robustness:
 
 🔹 Horizontal & Vertical Flip
+
 🔹 Brightness and Contrast Adjustment
+
 🔹 Rotation and Scaling
+
 🔹 Gaussian Blur
+
 🔹 HSV Modification
+
 🔹 Color Shifting
+
 🔹 Cropping
 
 💡 Augmentation script: augmentation.ipynb
+
+### **Applied Augmentation Techniques**
+![Augmentation](results/augmentation.jpg)
 📸 Sample Output
 Applied Augmentation Example
 Fused Model Detection Output
