@@ -88,6 +88,8 @@ The following augmentation techniques were applied to improve model diversity an
 
 ### **Applied Augmentation Techniques**
 ![Augmentation](results/augmentation.jpg)
+
 📸 Sample Output
-Applied Augmentation Example
-Fused Model Detection Output
+
+![Fused, Yolov8, Yolov5 Output](results/detection.jpg)
+
