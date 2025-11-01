@@ -4,7 +4,7 @@
 ## 📌 Project Overview
 This is the official repository for my research work:
 
-"HHO-Based Fusion of YOLOv5 and YOLOv8 for Enhanced Locust Detection" (DOI: 10.5281/zenodo.14996737)
+"HHO-Based Fusion of YOLOv5 and YOLOv8 for Enhanced Locust Detection" (DOI: 10.5281/zenodo.17499900)
 
 This study proposes a Harris Hawks Optimization (HHO)–based fusion framework that combines the strengths of YOLOv5 and YOLOv8 for accurate and efficient locust identification.
 The dataset has been curated, annotated, and augmented specifically for this task.
@@ -224,6 +224,6 @@ Special thanks to Ultralytics for YOLO development.
 
 For questions, reach out via poojavjpy@gmail.com or https://www.researchgate.net/profile/Pooja-Vajpayee-2/research
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14996738.svg)](https://doi.org/10.5281/zenodo.14996738)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17499900.svg)](https://doi.org/10.5281/zenodo.17499900)
 
 
