@@ -146,8 +146,16 @@ results = model.train(
 
 ✔ Perform HHO-Based Fusion
 
+'''
+import sys
+print('yolo_fusion' in sys.modules)
+from yolo_fusion import YOLOFusion, compute_iou
+print("YOLOFusion and compute_iou successfully imported!")
 
-🏆 Results & Evaluation
+'''
+
+
+## 🏆 Results & Evaluation
 
 ◆ The fused YOLOv5–YOLOv8 model achieved Mean IoU: 0.614 with the lowest False Detection Rate among all models.
 
