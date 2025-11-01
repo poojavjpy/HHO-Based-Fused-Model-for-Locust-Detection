@@ -1,10 +1,10 @@
-# 🚀 HHO-Based Fusion of YOLOv5 & YOLOv8 for Enhanced Locust Detection
+# 🚀 HHO-Based Fusion of YOLOv5 & YOLOv8 for Enhanced Locust Detection   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17499900.svg)](https://doi.org/10.5281/zenodo.17499900)
 🔍 A deep learning–based object detection model for locust identification using an HHO-optimized fusion of YOLOv5 and YOLOv8.
 
 ## 📌 Project Overview
 This is the official repository for my research work:
 
-"HHO-Based Fusion of YOLOv5 and YOLOv8 for Enhanced Locust Detection" (DOI: 10.5281/zenodo.17499900)
+"HHO-Based Fusion of YOLOv5 and YOLOv8 for Enhanced Locust Detection" 
 
 This study proposes a Harris Hawks Optimization (HHO)–based fusion framework that combines the strengths of YOLOv5 and YOLOv8 for accurate and efficient locust identification.
 The dataset has been curated, annotated, and augmented specifically for this task.
