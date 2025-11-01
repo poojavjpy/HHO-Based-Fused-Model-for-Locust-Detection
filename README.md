@@ -89,7 +89,126 @@ The following augmentation techniques were applied to improve model diversity an
 ### **Applied Augmentation Techniques**
 ![Augmentation](Results/augmentation.jpg)
 
+## 🚀 Installation & Setup
+
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/yourusername/locust-fusion-hho.git  
+cd locust-fusion-hho
+
+
+2️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+👉 If using Google Colab, run:
+
+!pip install -r requirements.txt
+
+
+3️⃣ Download the Dataset
+Since the dataset is hosted on Zenodo, download it manually from:
+🔗 Dataset DOI: 10.5281/zenodo.14964987
+
+Unzip and place it in the correct directory (datasets/).
+
+4️⃣ Mount Google Drive (if using Colab)
+from google.colab import drive
+drive.mount('/content/drive')
+
+
+
+## 🔧 Training 
+
+We trained and evaluated:
+
+◆ YOLOv5 baseline
+◆ YOLOv8 baseline
+◆ Proposed HHO-based Fusion model
+
+##⚡ Training Commands
+
+✔ Train YOLOv5
+
+!python train.py --img 640 --batch 16 --epochs 60 --data dataset.yaml --weights yolov5s.pt
+
+✔ Train YOLOv8
+
+results = model.train(
+    data='dataset.yaml',
+    epochs=60,
+    batch=16,
+    imgsz=640
+)
+
+✔ Perform HHO-Based Fusion
+
+
+🏆 Results & Evaluation
+
+◆ The fused YOLOv5–YOLOv8 model achieved Mean IoU: 0.614 with the lowest False Detection Rate among all models.
+◆ The HHO optimization balanced model outputs to enhance reliability across test samples.
+
+Performance Comparison
+
+| Model                       | Mean IoU  | Precision | Recall   | F1 Score |
+| --------------------------- | --------- | --------- | -------- | -------- |
+| YOLOv5                      | 0.589     | 0.82      | 0.78     | 0.80     |
+| YOLOv8                      | 0.607     | 0.84      | 0.81     | 0.82     |
+| **HHO-Fused YOLOv5+YOLOv8** | **0.614** | **0.86**  | **0.84** | **0.85** |
+
+
+
+
+## ⚡ Results showed that YOLOv8 outperformed YOLOv5 in detection accuracy especially after augmentation.
+
+
+
+## 📸 Visual Comparison of Results
+Below are performance results:
+
+
 📸 Sample Output
 
 ![Fused, Yolov8, Yolov5 Output](Results/detection.jpg)
+
+📜 Citation
+
+If you use this dataset or model, please cite the following:
+
+🔗 Dataset DOI: 10.5281/zenodo.14964987
+
+🔗 Fusion Model DOI: 10.5281/zenodo.14996737
+
+## 📜 Citation
+
+If you use this dataset, please cite the Zenodo DOI:  
+🔗 DOI: [10.5281/zenodo.14964987](https://doi.org/10.5281/zenodo.14964987)  
+
+```bibtex
+@misc{vajpayee2025locust,
+  author    = {Pooja Vajpayee and Kuldeep Kr. Yogi},
+  title     = {Locust Images Dataset},
+  year      = {2025},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.14964987},
+  url       = {https://doi.org/10.5281/zenodo.14964987}
+}
+```
+
+
+
+## 📄 License
+🔹 This project is licensed under the MIT License.
+
+## 🤝 Acknowledgments
+Special thanks to Ultralytics for YOLO development.
+
+## 📬 Contact
+
+For questions, reach out via poojavjpy@gmail.com or https://www.researchgate.net/profile/Pooja-Vajpayee-2/research
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14996738.svg)](https://doi.org/10.5281/zenodo.14996738)
+
 
