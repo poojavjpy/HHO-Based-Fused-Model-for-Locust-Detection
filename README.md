@@ -148,8 +148,11 @@ results = model.train(
 
 '''
 import sys
+
 print('yolo_fusion' in sys.modules)
+
 from yolo_fusion import YOLOFusion, compute_iou
+
 print("YOLOFusion and compute_iou successfully imported!")
 
 '''
@@ -183,13 +186,7 @@ Below are performance results:
 
 ![Fused, Yolov8, Yolov5 Output](Results/detection.jpg)
 
-📜 Citation
 
-If you use this dataset or model, please cite the following:
-
-🔗 Dataset DOI: 10.5281/zenodo.14964987
-
-🔗 Fusion Model DOI: 10.5281/zenodo.14996737
 
 ## 📜 Citation
 
@@ -207,6 +204,7 @@ If you use this dataset, please cite the Zenodo DOI:
 }
 ```
 
+🔗 Fusion Model DOI: 10.5281/zenodo.14996737
 
 
 ## 📄 License
