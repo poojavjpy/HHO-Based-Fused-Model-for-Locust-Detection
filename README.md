@@ -138,6 +138,7 @@ We trained and evaluated:
 ✔ Train YOLOv8
 
 results = model.train(
+
     data='dataset.yaml',
     epochs=60,
     batch=16,
@@ -146,14 +147,16 @@ results = model.train(
 
 ✔ Perform HHO-Based Fusion
 
-'''
+
+''' 
+
 import sys
 
 print('yolo_fusion' in sys.modules)
 
 from yolo_fusion import YOLOFusion, compute_iou
 
-print("YOLOFusion and compute_iou successfully imported!")
+print("YOLOFusion and compute_iou successfully imported!") 
 
 '''
 
@@ -164,13 +167,13 @@ print("YOLOFusion and compute_iou successfully imported!")
 
 ◆ The HHO optimization balanced model outputs to enhance reliability across test samples.
 
-## Performance Comparison
+## 📸 Visual Comparison of performance
 
-| Model                       | Mean IoU  | Precision | Recall   | F1 Score |
-| --------------------------- | --------- | --------- | -------- | -------- |
-| YOLOv5                      | 0.589     | 0.82      | 0.78     | 0.80     |
-| YOLOv8                      | 0.607     | 0.84      | 0.81     | 0.82     |
-| **HHO-Fused YOLOv5+YOLOv8** | **0.614** | **0.86**  | **0.84** | **0.85** |
+![Core Matrics](core_metrics.png)
+
+![Extra Metrics](extra_metrics.png)
+
+
 
 
 
