@@ -169,7 +169,11 @@ print("YOLOFusion and compute_iou successfully imported!")
 
 ## 📸 Visual Comparison of performance
 
+### **Core Matrics Comparision**
+
 ![Core Matrics](Results/core_metrics.jpg)
+
+### **Mean IoU , FNR, FPPI Comparision**
 
 ![Extra Metrics](Results/extra_metrics.jpg)
 
