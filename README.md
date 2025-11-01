@@ -169,9 +169,9 @@ print("YOLOFusion and compute_iou successfully imported!")
 
 ## 📸 Visual Comparison of performance
 
-![Core Matrics](core_metrics.png)
+![Core Matrics](core_metrics.jpg)
 
-![Extra Metrics](extra_metrics.png)
+![Extra Metrics](extra_metrics.jpg)
 
 
 
