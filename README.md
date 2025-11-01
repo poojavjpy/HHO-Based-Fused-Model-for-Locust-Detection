@@ -124,7 +124,9 @@ drive.mount('/content/drive')
 We trained and evaluated:
 
 ◆ YOLOv5 baseline
+
 ◆ YOLOv8 baseline
+
 ◆ Proposed HHO-based Fusion model
 
 ##⚡ Training Commands
@@ -148,6 +150,7 @@ results = model.train(
 🏆 Results & Evaluation
 
 ◆ The fused YOLOv5–YOLOv8 model achieved Mean IoU: 0.614 with the lowest False Detection Rate among all models.
+
 ◆ The HHO optimization balanced model outputs to enhance reliability across test samples.
 
 Performance Comparison
