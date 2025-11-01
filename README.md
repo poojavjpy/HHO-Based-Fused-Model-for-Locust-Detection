@@ -129,7 +129,7 @@ We trained and evaluated:
 
 ◆ Proposed HHO-based Fusion model
 
-##⚡ Training Commands
+## ⚡ Training Commands
 
 ✔ Train YOLOv5
 
