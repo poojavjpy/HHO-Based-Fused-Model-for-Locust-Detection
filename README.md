@@ -211,7 +211,7 @@ If you use this dataset, please cite the Zenodo DOI:
 }
 ```
 
-🔗 Fusion Model DOI: 10.5281/zenodo.14996737
+🔗 Enhanced Locust Detection Using YOLOv5 and YOLOv8(individual model run with and without augmentation) DOI: [10.5281/zenodo.14996737](https://doi.org/10.5281/zenodo.14996738)
 
 
 ## 📄 License
