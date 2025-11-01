@@ -153,7 +153,7 @@ results = model.train(
 
 ◆ The HHO optimization balanced model outputs to enhance reliability across test samples.
 
-Performance Comparison
+## Performance Comparison
 
 | Model                       | Mean IoU  | Precision | Recall   | F1 Score |
 | --------------------------- | --------- | --------- | -------- | -------- |
@@ -164,8 +164,7 @@ Performance Comparison
 
 
 
-## ⚡ Results showed that YOLOv8 outperformed YOLOv5 in detection accuracy especially after augmentation.
-
+## ⚡ Results demonstrated that the HHO-based fusion of YOLOv5 and YOLOv8 achieved superior detection accuracy, surpassing the individual models, particularly in complex and augmented datasets.
 
 
 ## 📸 Visual Comparison of Results
